@@ -1,147 +1,58 @@
-<template>
-    <div class="px-4 lg:px-[150px] container mx-auto py-4 justify-between items-center">
-        <div class="w-full flex flex-col lg:flex-row justify-between">
-            <div class="mb-4 lg:mb-0">
-                <p class="text-[#0A0908] font-family[Metropolis] text-[24px] lg:text-[32px] font-extrabold leading-[28px] lg:leading-[38.4px] text-left">
-                    Acteurs mis en avant
-                </p>
-                <p class="text-[#0A0908] font-family[Metropolis] text-[12px] lg:text-[14px] font-medium leading-[16px] lg:leading-[20.3px] text-left opacity-70">
-                    Tout les acteurs qui sont mis en avant sur Chasseurs de dettes
-                </p>
-            </div>
-            <div class="flex justify-center lg:justify-end">
-                <a href="" class="mr-3"><img class="w-6 lg:w-auto" src="./../assets/images/previous.png" alt=""></a>
-                <a href="" class=""><img class="w-6 lg:w-auto" src="./../assets/images/next.png" alt=""></a>
-            </div>
-        </div>
-        <div class="flex-wrap justify-center lg:justify-start lg:grid grid-cols-3">
-            <!-- Card 1 -->
-            <div
-                class="w-[100%] sm:w-[90%] md:w-[368px] border-[20px] border-white rounded-tl-[40px] rounded-br-[40px] rounded-[20px] px-[5px] bg-white mr-0 md:mr-[60px] mt-[20px] lg:mt-[57px]"
-            >
-                <div class="relative pb-[20px] border-b-[1px] border-[#e2dfdf]">
-                    <div class="mb-2">
-                        <img
-                            class="w-full md:w-[312px] h-[159px] rounded-tl-[40px] rounded-br-[40px] rounded-[20px]"
-                            src="./../assets/images/Rectangle _2.png"
-                            alt=""
-                        />
-                    </div>
-                    <div>
-                        <b class="text-[#0A0908] font-family[Metropolis] text-[14px] lg:text-[16px] font-extrabold text-left">
-                            Institut Français du Credit Management - IFCM
-                        </b>
-                        <div class="flex items-center mt-2">
-                            <img class="w-[20px] h-[20px]" src="./../assets/images/Frame_44.png" alt="">
-                            <p class="ml-2 text-[#5f5953] text-sm">6391 Elgin St. Celina, Delaware 10299</p>
-                        </div>
-                    </div>
-                    <a
-                        href=""
-                        class="rounded-[100%] h-[34px] w-[34px] bg-[white] absolute top-2 right-5 flex items-center justify-center"
-                    >
-                        <img src="../assets/images/solar_heart-outline.png" alt="">
-                    </a>
-                </div>
-                <div class="flex items-center justify-center mt-5">
-                    <a href="" class="mr-[20px] lg:mr-[30px]">
-                        <img class="opacity-40 w-5 lg:w-auto" src="../assets/images/solar_qr-code-bold.png" alt="">
-                    </a>
-                    <a href="">
-                        <img class="opacity-40 w-5 lg:w-auto" src="../assets/images/Vector.png" alt="">
-                    </a>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div
-                class="w-[100%] sm:w-[90%] md:w-[368px] border-[20px] border-white rounded-tl-[40px] rounded-br-[40px] rounded-[20px] px-[5px] bg-white mr-0 md:mr-[60px] mt-[20px] lg:mt-[57px]"
-            >
-                <div class="relative pb-[20px] border-b-[1px] border-[#e2dfdf]">
-                    <div class="mb-2">
-                        <img
-                            class="w-full md:w-[312px] h-[159px] rounded-tl-[40px] rounded-br-[40px] rounded-[20px]"
-                            src="./../assets/images/slack.jpg"
-                            alt=""
-                        />
-                    </div>
-                    <div>
-                        <b class="text-[#0A0908] font-family[Metropolis] text-[14px] lg:text-[16px] font-extrabold text-left">
-                            Institut Français du Credit Management - IFCM
-                        </b>
-                        <div class="flex items-center mt-2">
-                            <img class="w-[20px] h-[20px]" src="./../assets/images/Frame_44.png" alt="">
-                            <p class="ml-2 text-[#5f5953] text-sm">6391 Elgin St. Celina, Delaware 10299</p>
-                        </div>
-                    </div>
-                    <a
-                        href=""
-                        class="rounded-[100%] h-[34px] w-[34px] bg-[white] absolute top-2 right-5 flex items-center justify-center"
-                    >
-                        <img src="../assets/images/solar_heart-outline.png" alt="">
-                    </a>
-                </div>
-                <div class="flex items-center justify-center mt-5">
-                    <a href="" class="mr-[20px] lg:mr-[30px]">
-                        <img class="opacity-40 w-5 lg:w-auto" src="../assets/images/solar_qr-code-bold.png" alt="">
-                    </a>
-                    <a href="">
-                        <img class="opacity-40 w-5 lg:w-auto" src="../assets/images/Vector.png" alt="">
-                    </a>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div
-                class="w-[100%] sm:w-[90%] md:w-[368px] border-[20px] border-white rounded-tl-[40px] rounded-br-[40px] rounded-[20px] px-[5px] bg-white mr-0 md:mr-[60px] mt-[20px] lg:mt-[57px]"
-            >
-                <div class="relative pb-[20px] border-b-[1px] border-[#e2dfdf]">
-                    <div class="mb-2">
-                        <img
-                            class="w-full md:w-[312px] h-[159px] rounded-tl-[40px] rounded-br-[40px] rounded-[20px]"
-                            src="./../assets/images/first.jpg"
-                            alt=""
-                        />
-                    </div>
-                    <div>
-                        <b class="text-[#0A0908] font-family[Metropolis] text-[14px] lg:text-[16px] font-extrabold text-left">
-                            Institut Français du Credit Management - IFCM
-                        </b>
-                        <div class="flex items-center mt-2">
-                            <img class="w-[20px] h-[20px]" src="./../assets/images/Frame_44.png" alt="">
-                            <p class="ml-2 text-[#5f5953] text-sm">6391 Elgin St. Celina, Delaware 10299</p>
-                        </div>
-                    </div>
-                    <a
-                        href=""
-                        class="rounded-[100%] h-[34px] w-[34px] bg-[white] absolute top-2 right-5 flex items-center justify-center"
-                    >
-                        <img src="../assets/images/solar_heart-outline.png" alt="">
-                    </a>
-                </div>
-                <div class="flex items-center justify-center mt-5">
-                    <a href="" class="mr-[20px] lg:mr-[30px]">
-                        <img class="opacity-40 w-5 lg:w-auto" src="../assets/images/solar_qr-code-bold.png" alt="">
-                    </a>
-                    <a href="">
-                        <img class="opacity-40 w-5 lg:w-auto" src="../assets/images/Vector.png" alt="">
-                    </a>
-                </div>
+<div class="mt-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[20px] lg:gap-[60px]">
+            <div class="w-[full] border-[20px] border-white rounded-tl-[50px] rounded-br-[50px] rounded-[50px] px-[5px]">
+                <img src="../assets/images/Frame 3737.png" alt="">
             </div>
         </div>
 
-        <!-- "Voir plus" button -->
-        <div class="mt-10 flex justify-center">
-            <button
-                class="flex w-full lg:w-auto px-4 lg:px-6 py-2.5 h-[50px] bg-gradient-to-r from-[#A577F0] to-[#A577F0] text-white font-medium text-sm lg:text-xs rounded-full shadow-md items-center justify-center"
-            >
-                <img class="mr-2" src="../assets/images/refre.png" alt="">
-                Voir plus
-            </button>
-        </div>
-    </div>
-</template>
-
-<script>
-export default {};
-</script>
+cards: [
+            {
+            image: './../assets/images/Rectangle_2.png',
+            title: 'Institut Français du Credit Management - IFCM',
+            address: '6391 Elgin St. Celina, Delaware 10299',
+            showQRCode: true,
+            showVector: true,
+            },
+            {
+            image: './../assets/images/slack.jpg',
+            title: 'Institut Français du Credit Management - IFCM',
+            address: '6391 Elgin St. Celina, Delaware 10299',
+            showQRCode: true,
+            showVector: true,
+            },
+            {
+            image: './../assets/images/first.jpg',
+            title: 'Institut Français du Credit Management - IFCM',
+            address: '6391 Elgin St. Celina, Delaware 10299',
+            showQRCode: true,
+            showVector: true,
+            },
+            {
+            image: './../assets/images/blog5.jpg',
+            title: 'Institut Français du Credit Management - IFCM',
+            address: '6391 Elgin St. Celina, Delaware 10299',
+            showQRCode: true,
+            showVector: true,
+            },
+            {
+            image: './../assets/images/blog6.jpg',
+            title: 'Institut Français du Credit Management - IFCM',
+            address: '6391 Elgin St. Celina, Delaware 10299',
+            showQRCode: true,
+            showVector: true,
+            },
+            {
+            image: './../assets/images/blog.jpg',
+            title: 'Institut Français du Credit Management - IFCM',
+            address: '6391 Elgin St. Celina, Delaware 10299',
+            showQRCode: true,
+            showVector: true,
+            },
+            {
+            image: './../assets/images/blog8.jpg',
+            title: 'Institut Français du Credit Management - IFCM',
+            address: '6391 Elgin St. Celina, Delaware 10299',
+            showQRCode: true,
+            showVector: true,
+            },
+            // Add more cards as needed
+        ]

@@ -18,11 +18,15 @@ export default {
       },
       fontFamily: {
         sans: ['Inter', 'Arial', 'sans-serif'],
+        metropolis:['Inter','san-serif']
       },
       spacing: {
         '128': '32rem',
         '144': '36rem',
       },
+      fontSize: {
+        'lgb': '2rem'
+      }
     },
   },
   plugins: [
