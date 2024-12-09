@@ -80,9 +80,7 @@
     
         <!-- Hero Right -->
         <div class="hero_right w-full lg:w-[50%] relative mt-6 lg:mt-0">
-        <img class="z-[20] relative lg:w-full w-[80%]" src="./../assets/images/hero.png" alt="">
-        <div class="border-[10px] lg:border-[20px] border-white rounded-tl-[70px] lg:rounded-tl-[100px] rounded-br-[50px] lg:rounded-br-[100px] rounded-[40px] z-[10] rectangle_1 w-[70%] lg:w-[75%] h-[75%] bg-[#A577F0] absolute top-[78px] lg:top-[175px] left-[60px] lg:left-[120px]"></div>
-        <div class="border-[10px] lg:border-[20px] border-white rounded-tl-[70px] lg:rounded-tl-[100px] rounded-br-[50px] lg:rounded-br-[100px] rounded-[40px] z-[5] rectangle_2 w-[60%] lg:w-[40%] h-[40%] bg-[#4BE789] absolute top-[150px] lg:top-[300px] left-[140px] lg:left-[450px]"></div>
+            <img src="../assets/images/Right.png" alt="">
         </div>
     </div>
 </template>

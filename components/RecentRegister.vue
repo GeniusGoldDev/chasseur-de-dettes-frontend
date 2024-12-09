@@ -41,6 +41,12 @@
             <a href="" class="rounded-[100%] h-[34px] w-[34px] bg-[white] absolute top-2 right-5 flex items-center justify-center">
               <img src="../assets/images/solar_heart-outline.png" alt="Heart Icon">
             </a>
+            <NuxtLink 
+                to="/IdLocation" 
+                class="absolute top-[120px] left-5 flex"
+            >
+                <img src="../assets/images/Frame 18.png" alt="Heart Icon">
+            </NuxtLink>
           </div>
           
           <div class="flex items-center justify-center mt-5">
